@@ -1,0 +1,806 @@
+{
+    "message": "Get Windows application's analysis successfully.",
+    "data": {
+        "id": "66843f4e4194f9cc6c63c880",
+        "md5": "8405782aa774708a11fa553f7b995044",
+        "dos_header": {
+            "addressof_new_exeheader": 256,
+            "addressof_relocation_table": 64,
+            "checksum": 0,
+            "file_size_in_pages": 2,
+            "header_size_in_paragraphs": 4,
+            "initial_ip": 0,
+            "initial_relative_cs": 0,
+            "initial_relative_ss": 0,
+            "initial_sp": 184,
+            "magic": 23117,
+            "maximum_extra_paragraphs": 65535,
+            "minimum_extra_paragraphs": 15,
+            "numberof_relocation": 0,
+            "oem_id": 0,
+            "oem_info": 0,
+            "overlay_number": 26,
+            "used_bytes_in_the_last_page": 80
+        },
+        "header_characteristics": 33167,
+        "header": {
+            "machine": 332,
+            "numberof_sections": 10,
+            "numberof_symbols": 0,
+            "pointerto_symbol_table": 0,
+            "signature": 149,
+            "sizeof_optional_header": 224,
+            "time_date_stamps": 1622707751
+        },
+        "optional_header": {
+            "addressof_entrypoint": 745196,
+            "baseof_code": 4096,
+            "baseof_data": 749568,
+            "checksum": 5582968,
+            "computed_checksum": 5582968,
+            "dll_characteristics": 33088,
+            "file_alignment": 512,
+            "imagebase": 4194304,
+            "loader_flags": 0,
+            "magic": 267,
+            "major_image_version": 6,
+            "major_linker_version": 2,
+            "major_operating_system_version": 6,
+            "major_subsystem_version": 6,
+            "minor_image_version": 0,
+            "minor_linker_version": 25,
+            "minor_operating_system_version": 0,
+            "minor_subsystem_version": 0,
+            "numberof_rva_and_size": 16,
+            "section_alignment": 4096,
+            "sizeof_code": 741376,
+            "sizeof_headers": 1024,
+            "sizeof_heap_commit": 4096,
+            "sizeof_heap_reserve": 1048576,
+            "sizeof_image": 958464,
+            "sizeof_initialized_data": 161792,
+            "sizeof_stack_commit": 16384,
+            "sizeof_stack_reserve": 1048576,
+            "sizeof_uninitialized_data": 0,
+            "subsystem": 2,
+            "win32_version_value": 0
+        },
+        "data_directories": [
+            {
+                "has_section": true,
+                "rva": 802816,
+                "section": {
+                    "characteristics": 1073741888,
+                    "entropy": 4.507550065851744,
+                    "name": ".edata",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 761344,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 761344,
+                    "pointerto_relocation": 0,
+                    "size": 512,
+                    "sizeof_raw_data": 512,
+                    "virtual_address": 802816,
+                    "virtual_size": 154
+                },
+                "size": 154,
+                "type": 0
+            },
+            {
+                "has_section": true,
+                "rva": 794624,
+                "section": {
+                    "characteristics": 3221225536,
+                    "entropy": 5.051703566781475,
+                    "name": ".idata",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 756736,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 756736,
+                    "pointerto_relocation": 0,
+                    "size": 4096,
+                    "sizeof_raw_data": 4096,
+                    "virtual_address": 794624,
+                    "virtual_size": 3894
+                },
+                "size": 3894,
+                "type": 1
+            },
+            {
+                "has_section": true,
+                "rva": 815104,
+                "section": {
+                    "characteristics": 1073741888,
+                    "entropy": 1.4418663938529026,
+                    "name": ".rsrc",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 762368,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 762368,
+                    "pointerto_relocation": 0,
+                    "size": 141824,
+                    "sizeof_raw_data": 141824,
+                    "virtual_address": 815104,
+                    "virtual_size": 141528
+                },
+                "size": 141528,
+                "type": 2
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 3
+            },
+            {
+                "has_section": false,
+                "rva": 5569296,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 12568,
+                "type": 4
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 5
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 6
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 7
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 8
+            },
+            {
+                "has_section": true,
+                "rva": 811008,
+                "section": {
+                    "characteristics": 1073741888,
+                    "entropy": 4.81401475929541,
+                    "name": ".rdata",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 761856,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 761856,
+                    "pointerto_relocation": 0,
+                    "size": 512,
+                    "sizeof_raw_data": 512,
+                    "virtual_address": 811008,
+                    "virtual_size": 93
+                },
+                "size": 24,
+                "type": 9
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 10
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 11
+            },
+            {
+                "has_section": true,
+                "rva": 795364,
+                "section": {
+                    "characteristics": 3221225536,
+                    "entropy": 5.051703566781475,
+                    "name": ".idata",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 756736,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 756736,
+                    "pointerto_relocation": 0,
+                    "size": 4096,
+                    "sizeof_raw_data": 4096,
+                    "virtual_address": 794624,
+                    "virtual_size": 3894
+                },
+                "size": 580,
+                "type": 12
+            },
+            {
+                "has_section": true,
+                "rva": 798720,
+                "section": {
+                    "characteristics": 3221225536,
+                    "entropy": 3.2072219910225557,
+                    "name": ".didata",
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 760832,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 760832,
+                    "pointerto_relocation": 0,
+                    "size": 512,
+                    "sizeof_raw_data": 512,
+                    "virtual_address": 798720,
+                    "virtual_size": 420
+                },
+                "size": 420,
+                "type": 13
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 14
+            },
+            {
+                "has_section": false,
+                "rva": 0,
+                "section": {
+                    "characteristics": 0,
+                    "entropy": 0,
+                    "name": null,
+                    "numberof_line_numbers": 0,
+                    "numberof_relocations": 0,
+                    "offset": 0,
+                    "pointerto_line_numbers": 0,
+                    "pointerto_raw_data": 0,
+                    "pointerto_relocation": 0,
+                    "size": 0,
+                    "sizeof_raw_data": 0,
+                    "virtual_address": 0,
+                    "virtual_size": 0
+                },
+                "size": 0,
+                "type": 15
+            }
+        ],
+        "sections": [
+            {
+                "characteristics": 1610612768,
+                "entropy": 6.358661745461216,
+                "name": ".text",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 1024,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 1024,
+                "pointerto_relocation": 0,
+                "size": 735232,
+                "sizeof_raw_data": 735232,
+                "virtual_address": 4096,
+                "virtual_size": 734748
+            },
+            {
+                "characteristics": 1610612768,
+                "entropy": 6.21439482800833,
+                "name": ".itext",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 736256,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 736256,
+                "pointerto_relocation": 0,
+                "size": 6144,
+                "sizeof_raw_data": 6144,
+                "virtual_address": 741376,
+                "virtual_size": 5768
+            },
+            {
+                "characteristics": 3221225536,
+                "entropy": 5.067744558933637,
+                "name": ".data",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 742400,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 742400,
+                "pointerto_relocation": 0,
+                "size": 14336,
+                "sizeof_raw_data": 14336,
+                "virtual_address": 749568,
+                "virtual_size": 14244
+            },
+            {
+                "characteristics": 3221225472,
+                "entropy": 0.0,
+                "name": ".bss",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 0,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 0,
+                "pointerto_relocation": 0,
+                "size": 0,
+                "sizeof_raw_data": 0,
+                "virtual_address": 765952,
+                "virtual_size": 28136
+            },
+            {
+                "characteristics": 3221225536,
+                "entropy": 5.051703566781475,
+                "name": ".idata",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 756736,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 756736,
+                "pointerto_relocation": 0,
+                "size": 4096,
+                "sizeof_raw_data": 4096,
+                "virtual_address": 794624,
+                "virtual_size": 3894
+            },
+            {
+                "characteristics": 3221225536,
+                "entropy": 3.2072219910225557,
+                "name": ".didata",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 760832,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 760832,
+                "pointerto_relocation": 0,
+                "size": 512,
+                "sizeof_raw_data": 512,
+                "virtual_address": 798720,
+                "virtual_size": 420
+            }
+        ],
+        "_import": {
+            "has_section": true,
+            "rva": 794624,
+            "section": {
+                "characteristics": 3221225536,
+                "entropy": 5.051703566781475,
+                "name": ".idata",
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 756736,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 756736,
+                "pointerto_relocation": 0,
+                "size": 4096,
+                "sizeof_raw_data": 4096,
+                "virtual_address": 794624,
+                "virtual_size": 3894
+            },
+            "size": 3894,
+            "type": 1
+        },
+        "libraries": [
+            {
+                "name": "kernel32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 795364,
+                "import_lookup_table_rva": 794784,
+                "entries": [
+                    {
+                        "data": 795958,
+                        "hint": 0,
+                        "iat_address": 795364,
+                        "iat_value": 795958,
+                        "is_ordinal": false,
+                        "name": "GetACP",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 795968,
+                        "hint": 0,
+                        "iat_address": 795368,
+                        "iat_value": 795968,
+                        "is_ordinal": false,
+                        "name": "GetExitCodeProcess",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 795990,
+                        "hint": 0,
+                        "iat_address": 795372,
+                        "iat_value": 795990,
+                        "is_ordinal": false,
+                        "name": "LocalFree",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 796002,
+                        "hint": 0,
+                        "iat_address": 795376,
+                        "iat_value": 796002,
+                        "is_ordinal": false,
+                        "name": "CloseHandle",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 796016,
+                        "hint": 0,
+                        "iat_address": 795380,
+                        "iat_value": 796016,
+                        "is_ordinal": false,
+                        "name": "SizeofResource",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "comctl32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 795764,
+                "import_lookup_table_rva": 795184,
+                "entries": [
+                    {
+                        "data": 797722,
+                        "hint": 0,
+                        "iat_address": 795764,
+                        "iat_value": 797722,
+                        "is_ordinal": false,
+                        "name": "InitCommonControls",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "version.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 795772,
+                "import_lookup_table_rva": 795192,
+                "entries": [
+                    {
+                        "data": 797756,
+                        "hint": 0,
+                        "iat_address": 795772,
+                        "iat_value": 797756,
+                        "is_ordinal": false,
+                        "name": "GetFileVersionInfoSizeW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 797782,
+                        "hint": 0,
+                        "iat_address": 795776,
+                        "iat_value": 797782,
+                        "is_ordinal": false,
+                        "name": "VerQueryValueW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 797800,
+                        "hint": 0,
+                        "iat_address": 795780,
+                        "iat_value": 797800,
+                        "is_ordinal": false,
+                        "name": "GetFileVersionInfoW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "user32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 795788,
+                "import_lookup_table_rva": 795208,
+                "entries": [
+                    {
+                        "data": 797834,
+                        "hint": 0,
+                        "iat_address": 795788,
+                        "iat_value": 797834,
+                        "is_ordinal": false,
+                        "name": "CreateWindowExW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 797852,
+                        "hint": 0,
+                        "iat_address": 795792,
+                        "iat_value": 797852,
+                        "is_ordinal": false,
+                        "name": "TranslateMessage",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 797872,
+                        "hint": 0,
+                        "iat_address": 795796,
+                        "iat_value": 797872,
+                        "is_ordinal": false,
+                        "name": "CharLowerBuffW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 797890,
+                        "hint": 0,
+                        "iat_address": 795800,
+                        "iat_value": 797890,
+                        "is_ordinal": false,
+                        "name": "CallWindowProcW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 797908,
+                        "hint": 0,
+                        "iat_address": 795804,
+                        "iat_value": 797908,
+                        "is_ordinal": false,
+                        "name": "CharUpperW",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "name": "oleaut32.dll",
+                "forwarder_chain": 0,
+                "timedatestamp": 0,
+                "import_address_table_rva": 795856,
+                "import_lookup_table_rva": 795276,
+                "entries": [
+                    {
+                        "data": 798128,
+                        "hint": 0,
+                        "iat_address": 795856,
+                        "iat_value": 798128,
+                        "is_ordinal": false,
+                        "name": "SysAllocStringLen",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 798148,
+                        "hint": 0,
+                        "iat_address": 795860,
+                        "iat_value": 798148,
+                        "is_ordinal": false,
+                        "name": "SafeArrayPtrOfIndex",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 798170,
+                        "hint": 0,
+                        "iat_address": 795864,
+                        "iat_value": 798170,
+                        "is_ordinal": false,
+                        "name": "VariantCopy",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 798184,
+                        "hint": 0,
+                        "iat_address": 795868,
+                        "iat_value": 798184,
+                        "is_ordinal": false,
+                        "name": "SafeArrayGetLBound",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    },
+                    {
+                        "data": 798206,
+                        "hint": 0,
+                        "iat_address": 795872,
+                        "iat_value": 798206,
+                        "is_ordinal": false,
+                        "name": "SafeArrayGetUBound",
+                        "ordinal": 0,
+                        "size": 0,
+                        "value": 0
+                    }
+                ]
+            }
+        ],
+        "tls": {
+            "addressof_callbacks": 5005328,
+            "addressof_index": 4946964,
+            "raw_data_start": 5001216,
+            "raw_data_end": 5001240,
+            "characteristics": 0,
+            "data_directory": {
+                "has_section": true,
+                "rva": 811008,
+                "size": 24,
+                "type": 9,
+                "name": ".rdata"
+            },
+            "section": {
+                "characteristics": 1073741888,
+                "entropy": 4.81401475929541,
+                "numberof_line_numbers": 0,
+                "numberof_relocations": 0,
+                "offset": 761856,
+                "pointerto_line_numbers": 0,
+                "pointerto_raw_data": 761856,
+                "pointerto_relocation": 0,
+                "size": 512,
+                "sizeof_raw_data": 512,
+                "virtual_address": 811008,
+                "virtual_size": 93
+            }
+        },
+        "malware_type": "Trojan",
+        "created_at": "2024-07-02T17:56:30.686000"
+    }
+}
