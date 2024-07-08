@@ -1,3 +1,3 @@
-Crawl data from Tiki byy Web API use Request Library,
+Crawl data from Tiki by Web API use Request, Beautiful soup Library
 
 Use Azure to store and analytics data
